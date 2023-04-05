@@ -1,6 +1,6 @@
 package gg.rsmod.plugins.content.skills.fletching.data
 
-import gg.rsmod.plugins.api.cfg.Items
+
 
 enum class Chiseled(val id: Int, val unchiseled: Int, val amount: Int = 12, val level: Int, val animation: Int, val fletchingXP: Double) {
     // TODO: FIND ANIMATION IDS!!!

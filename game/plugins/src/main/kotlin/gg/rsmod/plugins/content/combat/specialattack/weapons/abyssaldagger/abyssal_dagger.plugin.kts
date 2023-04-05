@@ -1,7 +1,7 @@
 package gg.rsmod.plugins.content.combat.specialattack.weapons.abyssaldagger
 
 import gg.rsmod.game.model.entity.AreaSound
-import gg.rsmod.plugins.api.cfg.Items
+
 import gg.rsmod.plugins.content.combat.dealHit
 import gg.rsmod.plugins.content.combat.formula.MeleeCombatFormula
 import gg.rsmod.plugins.content.combat.specialattack.SpecialAttacks

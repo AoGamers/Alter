@@ -2,6 +2,7 @@ package gg.rsmod.plugins.content.combat.strategy.ranged.weapon
 
 import gg.rsmod.plugins.api.cfg.Items
 
+
 /**
  * @author Tom <rspsmods@gmail.com>
  */

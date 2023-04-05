@@ -1,6 +1,6 @@
 package gg.rsmod.plugins.content.skills.fletching.data
 
-import gg.rsmod.plugins.api.cfg.Items
+
 
 enum class Attached(val id: Int, val toolRequired: Int = -1, val firstMaterial: Int, val secondMaterial: Int, val level: Int, val animation: Int, val fletchingXP: Double) {
     // Bow Stringing

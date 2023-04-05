@@ -80,7 +80,7 @@ class ContainerExtTests {
         @BeforeClass
         @JvmStatic
         fun loadCache() {
-            val path = Paths.get("./../../data", "cache")
+            val path = Paths.get("data", "cache")
             check(Files.exists(path)) { "Path does not exist: ${path.toAbsolutePath()}" }
 
             store = Store(path.toFile())

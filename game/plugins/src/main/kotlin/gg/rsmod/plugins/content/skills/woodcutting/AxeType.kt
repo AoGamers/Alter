@@ -1,7 +1,7 @@
 package gg.rsmod.plugins.content.skills.woodcutting
 
 import gg.rsmod.plugins.api.cfg.Animation
-import gg.rsmod.plugins.api.cfg.Items
+
 
 /**
  * @author Tom <rspsmods@gmail.com>

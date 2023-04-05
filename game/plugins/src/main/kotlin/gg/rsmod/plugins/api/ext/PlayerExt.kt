@@ -19,10 +19,11 @@ import gg.rsmod.game.model.interf.DisplayMode
 import gg.rsmod.game.model.item.Item
 import gg.rsmod.game.model.timer.SKULL_ICON_DURATION_TIMER
 import gg.rsmod.game.sync.block.UpdateBlockType
-import gg.rsmod.plugins.api.*
 import gg.rsmod.plugins.api.cfg.Varbits
 import gg.rsmod.plugins.api.cfg.Varps
 import gg.rsmod.plugins.api.cfg.Songs
+import gg.rsmod.plugins.api.*
+import gg.rsmod.plugins.api.InterfaceDestination
 import gg.rsmod.plugins.service.marketvalue.ItemMarketValueService
 import gg.rsmod.util.BitManipulation
 
@@ -372,7 +373,7 @@ fun Player.playSound(id: Int, volume: Int = 1, delay: Int = 0) {
 
 fun Player.playSong(id: Int) {
     write(MidiSongMessage(id))
-    setComponentText(interfaceId = 239, component = 6, text = Songs.getTitle(id))
+    setComponentText(interfaceId = 239, component = 6, text = gg.rsmod.plugins.api.cfg.Songs.getTitle(id))
 }
 
 fun Player.playJingle(id: Int) {

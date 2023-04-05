@@ -20,10 +20,10 @@ object KotlinPluginConfiguration : ScriptCompilationConfiguration({
             "gg.rsmod.game.model.shop.StockType",
 
             "gg.rsmod.game.plugin.Plugin",
-
             "gg.rsmod.plugins.api.*",
             "gg.rsmod.plugins.api.ext.*",
             "gg.rsmod.plugins.api.cfg.*",
-            "gg.rsmod.plugins.api.dsl.*"
+            "gg.rsmod.plugins.api.dsl.*",
+            "gg.rsmod.plugins.api.commandExtensions.Command.tryWithUsage",
     )
 })

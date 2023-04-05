@@ -1,6 +1,6 @@
 package gg.rsmod.plugins.content.skills.cooking.data
 
-import gg.rsmod.plugins.api.cfg.Items
+
 
 enum class CookingIngredient(val item1: Int, val item2: Int, val usedItem1: Int, val usedItem2: Int, val result: Int, val minLevel: Int, val xp: Double) {
 

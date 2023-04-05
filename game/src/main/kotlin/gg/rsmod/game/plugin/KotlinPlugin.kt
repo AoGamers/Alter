@@ -1,6 +1,5 @@
 package gg.rsmod.game.plugin
 
-import com.google.gson.GsonBuilder
 import gg.rsmod.game.Server
 import gg.rsmod.game.event.Event
 import gg.rsmod.game.fs.def.ItemDef
@@ -17,8 +16,6 @@ import gg.rsmod.game.model.shop.StockType
 import gg.rsmod.game.model.timer.TimerKey
 import gg.rsmod.game.service.Service
 import it.unimi.dsi.fastutil.objects.Object2ObjectOpenHashMap
-import java.nio.file.Files
-import java.nio.file.Paths
 import kotlin.script.experimental.annotations.KotlinScript
 
 /**

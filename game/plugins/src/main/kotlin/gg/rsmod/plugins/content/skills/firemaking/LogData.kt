@@ -1,6 +1,6 @@
 package gg.rsmod.plugins.content.skills.firemaking
 
-import gg.rsmod.plugins.api.cfg.Items
+
 
 /**
  * @author Fritz <frikkipafi@gmail.com>

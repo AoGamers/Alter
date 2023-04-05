@@ -1,7 +1,7 @@
 package gg.rsmod.plugins.content.skills.runecrafting
 
 import gg.rsmod.game.model.Tile
-import gg.rsmod.plugins.api.cfg.Items
+
 import gg.rsmod.plugins.api.cfg.Objs
 
 /**

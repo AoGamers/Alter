@@ -1,6 +1,6 @@
 package gg.rsmod.plugins.content.npcs.sheep
 
-import gg.rsmod.plugins.api.cfg.Npcs
+
 
 /**
  * @author Tom <rspsmods@gmail.com>

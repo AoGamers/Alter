@@ -1,6 +1,6 @@
 package gg.rsmod.plugins.content.skills.woodcutting
 
-import gg.rsmod.plugins.api.cfg.Npcs
+
 
 
 private val teaseableNpcs = arrayOf(Npcs.SPINED_LARUPIA,Npcs.HORNED_GRAAHK)

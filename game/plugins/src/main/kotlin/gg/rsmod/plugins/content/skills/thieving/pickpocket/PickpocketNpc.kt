@@ -2,8 +2,8 @@ package gg.rsmod.plugins.content.skills.thieving.pickpocket
 
 import gg.rsmod.game.model.weight.impl.WeightItem
 import gg.rsmod.game.model.weight.impl.WeightItemSet
-import gg.rsmod.plugins.api.cfg.Items
-import gg.rsmod.plugins.api.cfg.Npcs
+
+
 
 //Rarity weighting
 private const val ALWAYS = 0

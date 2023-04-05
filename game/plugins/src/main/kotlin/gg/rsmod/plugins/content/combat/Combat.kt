@@ -21,7 +21,7 @@ import gg.rsmod.plugins.content.combat.strategy.MagicCombatStrategy
 import gg.rsmod.plugins.content.combat.strategy.MeleeCombatStrategy
 import gg.rsmod.plugins.content.combat.strategy.RangedCombatStrategy
 import gg.rsmod.plugins.content.combat.strategy.magic.CombatSpell
-import gg.rsmod.plugins.content.inter.attack.AttackTab
+import gg.rsmod.plugins.content.interfaces.attack.AttackTab
 import java.lang.ref.WeakReference
 
 /**

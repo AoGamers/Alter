@@ -3,6 +3,7 @@ package gg.rsmod.plugins.content.combat.strategy.ranged
 import gg.rsmod.game.model.Graphic
 import gg.rsmod.plugins.api.ProjectileType
 import gg.rsmod.plugins.api.cfg.Items
+
 import gg.rsmod.plugins.content.combat.strategy.ranged.ammo.Arrows.ADAMANT_ARROWS
 import gg.rsmod.plugins.content.combat.strategy.ranged.ammo.Arrows.AMETHYST_ARROWS
 import gg.rsmod.plugins.content.combat.strategy.ranged.ammo.Arrows.BRONZE_ARROWS
@@ -83,7 +84,8 @@ enum class RangedProjectile(val gfx: Int, val drawback: Graphic? = null, val imp
     RUNE_DART(gfx = 231, drawback = Graphic(id = 237, height = 96), type = ProjectileType.THROWN, items = RUNE_DARTS),
     DRAGON_DART(gfx = 1122, drawback = Graphic(id = 1123, height = 96), type = ProjectileType.THROWN, items = DRAGON_DARTS),
 
-    BRONZE_THROWING_AXE(gfx = 36, drawback = Graphic(id = 43, height = 96), type = ProjectileType.THROWN, items = arrayOf(Items.BRONZE_THROWNAXE)),
+    BRONZE_THROWING_AXE(gfx = 36, drawback = Graphic(id = 43, height = 96), type = ProjectileType.THROWN, items = arrayOf(
+        Items.BRONZE_THROWNAXE)),
     IRON_THROWING_AXE(gfx = 35, drawback = Graphic(id = 42, height = 96), type = ProjectileType.THROWN, items = arrayOf(Items.IRON_THROWNAXE)),
     STEEL_THROWING_AXE(gfx = 37, drawback = Graphic(id = 44, height = 96), type = ProjectileType.THROWN, items = arrayOf(Items.STEEL_THROWNAXE)),
     MITHRIL_THROWING_AXE(gfx = 38, drawback = Graphic(id = 45, height = 96), type = ProjectileType.THROWN, items = arrayOf(Items.MITHRIL_THROWNAXE)),

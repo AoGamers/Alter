@@ -1,6 +1,6 @@
 package gg.rsmod.plugins.content.skills.fletching.data
 
-import gg.rsmod.plugins.api.cfg.Items
+
 
 enum class Tipped(val id: Int, val base: Int, val tip: Int, val level: Int, val setAmount: Int, val fletchingXP: Double) {
     // Arrows

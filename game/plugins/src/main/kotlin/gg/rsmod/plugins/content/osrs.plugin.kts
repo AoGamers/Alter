@@ -1,5 +1,7 @@
 package gg.rsmod.plugins.content
 
+import gg.rsmod.plugins.api.cfg.Varbits
+import gg.rsmod.plugins.api.cfg.Varps
 import gg.rsmod.game.model.attr.LAST_LOGIN_ATTR
 import gg.rsmod.plugins.content.Osrs_plugin.OSRSInterfaces.openDefaultInterfaces
 

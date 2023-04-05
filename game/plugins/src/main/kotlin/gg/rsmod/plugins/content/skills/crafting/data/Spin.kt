@@ -1,6 +1,6 @@
 package gg.rsmod.plugins.content.skills.crafting.data
 
-import gg.rsmod.plugins.api.cfg.Items
+
 
 /**
  * @author Triston Plummer ("Dread')

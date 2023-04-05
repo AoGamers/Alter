@@ -33,6 +33,42 @@ object GroundItemPathAction {
      */
     internal const val ITEM_ON_GROUND_ITEM_OPTION = -1
 
+    /**
+     *  Note from : @Kris
+     *  also thats exactly how it works
+     *  if someone freezes u in pvp and an item is next to you, u will do the anim when u pick it up
+     *  despite there being nothing on that given tile
+     */
+//    val walkPlugin: Plugin.() -> Unit = {
+//        val p = ctx as Player
+//        val item = p.attr[INTERACTING_GROUNDITEM_ATTR]!!.get()!!
+//        val opt = p.attr[INTERACTING_OPT_ATTR]!!
+//        if (p.tile.sameAs(item.tile) || p.tile.isNextTo(item.tile)) {
+//            /**
+//             * Need rewrite. @TODO
+//             */
+//            //if (p.tile.isNextTo(item.tile)) {
+//            //    p.faceTile(item.tile)
+//            //    p.animate(832)
+//            //    handleAction(p, item, opt)
+//            //} else if (p.tile.sameAs(item.tile)) {
+//            //    handleAction(p, item, opt)
+//            //}
+//             if (p.tile.sameAs(item.tile)) {
+//                handleAction(p, item, opt)
+//             }
+//        } else {
+//            p.walkTo(item.tile, MovementQueue.StepType.NORMAL)
+//            p.queue(TaskPriority.STANDARD) {
+//                terminateAction = {
+//                    p.stopMovement()
+//                    p.write(SetMapFlagMessage(255, 255))
+//                }
+//                awaitArrival(item, opt)
+//            }
+//        }
+//    }
+
     val walkPlugin: Plugin.() -> Unit = {
         val p = ctx as Player
         val item = p.attr[INTERACTING_GROUNDITEM_ATTR]!!.get()!!
@@ -51,6 +87,39 @@ object GroundItemPathAction {
             }
         }
     }
+
+//    private suspend fun QueueTask.awaitArrival(item: GroundItem, opt: Int) {
+//        val p = ctx as Player
+//        val destination = p.movementQueue.peekLast()
+//        if (destination == null) {
+//            p.writeMessage(Entity.YOU_CANT_REACH_THAT)
+//            return
+//        }
+//        while (true) {
+//            if (!p.tile.sameAs(destination)) {
+//                wait(1)
+//                continue
+//            }
+//            if (p.tile.sameAs(item.tile) || p.tile.isNextTo(item.tile)) {
+//                /**
+//                 * Need rewrite. @TODO
+//                 */
+////                if (p.tile.isNextTo(item.tile)) {
+////                    p.faceTile(item.tile)
+////                    p.animate(832)
+////                    handleAction(p, item, opt)
+////                } else if (p.tile.sameAs(item.tile)) {
+////                    handleAction(p, item, opt)
+////                }
+//                if (p.tile.sameAs(item.tile)) {
+//                    handleAction(p, item, opt)
+//                }
+//            } else {
+//                p.writeMessage(Entity.YOU_CANT_REACH_THAT)
+//            }
+//            break
+//        }
+//    }
 
     private suspend fun QueueTask.awaitArrival(item: GroundItem, opt: Int) {
         val p = ctx as Player

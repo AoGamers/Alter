@@ -8,7 +8,7 @@ import gg.rsmod.game.model.timer.FROZEN_TIMER
 import gg.rsmod.game.model.timer.STUN_TIMER
 import gg.rsmod.plugins.content.combat.specialattack.SpecialAttacks
 import gg.rsmod.plugins.content.combat.strategy.magic.CombatSpell
-import gg.rsmod.plugins.content.inter.attack.AttackTab
+import gg.rsmod.plugins.content.interfaces.attack.AttackTab
 
 set_combat_logic {
     pawn.attr[COMBAT_TARGET_FOCUS_ATTR]?.get()?.let { target ->

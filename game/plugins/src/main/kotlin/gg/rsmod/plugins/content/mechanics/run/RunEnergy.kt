@@ -1,12 +1,12 @@
 package gg.rsmod.plugins.content.mechanics.run
 
+import gg.rsmod.plugins.api.cfg.Varps
 import gg.rsmod.game.model.bits.INFINITE_VARS_STORAGE
 import gg.rsmod.game.model.bits.InfiniteVarsType
 import gg.rsmod.game.model.entity.Player
 import gg.rsmod.game.model.timer.TimerKey
 import gg.rsmod.plugins.api.EquipmentType
 import gg.rsmod.plugins.api.Skills
-import gg.rsmod.plugins.api.cfg.Varps
 import gg.rsmod.plugins.api.ext.*
 
 /**

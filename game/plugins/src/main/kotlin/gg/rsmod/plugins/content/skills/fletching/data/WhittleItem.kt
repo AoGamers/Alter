@@ -1,6 +1,6 @@
 package gg.rsmod.plugins.content.skills.fletching.data
 
-import gg.rsmod.plugins.api.cfg.Items
+
 
 enum class WhittleItem(val id: Int, val level: Int, val logCount: Int = 1, val amount: Int = 1, val ticks: Int = 3, val fletchingXP: Double) {
     // Logs

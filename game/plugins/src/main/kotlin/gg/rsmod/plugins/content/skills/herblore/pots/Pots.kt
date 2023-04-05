@@ -5,7 +5,7 @@ import gg.rsmod.game.model.attr.INTERACTING_ITEM_SLOT
 import gg.rsmod.game.model.attr.OTHER_ITEM_SLOT_ATTR
 import gg.rsmod.game.model.entity.Player
 import gg.rsmod.plugins.api.Skills
-import gg.rsmod.plugins.api.cfg.Items
+
 import gg.rsmod.plugins.api.ext.*
 import mu.KLogging
 

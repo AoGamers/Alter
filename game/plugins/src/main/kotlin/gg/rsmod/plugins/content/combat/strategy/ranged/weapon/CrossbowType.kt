@@ -1,5 +1,6 @@
 package gg.rsmod.plugins.content.combat.strategy.ranged.weapon
 
+
 import gg.rsmod.plugins.api.cfg.Items
 import gg.rsmod.plugins.content.combat.strategy.ranged.ammo.Bolts.ADAMANT_BOLTS
 import gg.rsmod.plugins.content.combat.strategy.ranged.ammo.Bolts.BLURITE_BOLTS

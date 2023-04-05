@@ -1,6 +1,6 @@
 package gg.rsmod.plugins.content.skills.crafting.data
 
-import gg.rsmod.plugins.api.cfg.Items
+
 
     enum class LeatherItem(val id: Int, val level: Int, val leatherCount: Int, val amount: Int = 1, val ticks: Int = 4, val craftXp: Double) {
     LEATHER_GLOVES(id = Items.LEATHER_GLOVES, level = 1, leatherCount = 1, craftXp = 13.8),

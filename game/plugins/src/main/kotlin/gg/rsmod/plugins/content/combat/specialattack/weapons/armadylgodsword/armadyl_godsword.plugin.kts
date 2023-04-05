@@ -2,7 +2,7 @@ package gg.rsmod.plugins.content.combat.specialattack.weapons.armadylgodsword
 
 import gg.rsmod.game.model.attr.COMBAT_TARGET_FOCUS_ATTR
 import gg.rsmod.game.model.entity.AreaSound
-import gg.rsmod.plugins.api.cfg.Items
+
 import gg.rsmod.plugins.api.ext.getAttackStyle
 import gg.rsmod.plugins.api.ext.pawn
 import gg.rsmod.plugins.api.ext.player

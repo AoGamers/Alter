@@ -1,6 +1,6 @@
 package gg.rsmod.plugins.content.skills.cooking.data
 
-import gg.rsmod.plugins.api.cfg.Items
+
 
 /**
  * @author Kyle Escobar

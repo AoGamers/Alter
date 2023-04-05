@@ -9,6 +9,7 @@ import gg.rsmod.plugins.api.EquipmentType
 import gg.rsmod.plugins.api.NpcSpecies
 import gg.rsmod.plugins.api.PrayerIcon
 import gg.rsmod.plugins.api.cfg.Items
+
 import gg.rsmod.plugins.api.ext.hasEquipped
 import gg.rsmod.plugins.api.ext.hasPrayerIcon
 import gg.rsmod.plugins.api.ext.isSpecies

@@ -6,6 +6,7 @@ import gg.rsmod.game.model.entity.Pawn
 import gg.rsmod.game.model.entity.Player
 import gg.rsmod.plugins.api.*
 import gg.rsmod.plugins.api.cfg.Items
+
 import gg.rsmod.plugins.api.ext.*
 import gg.rsmod.plugins.content.combat.Combat
 import gg.rsmod.plugins.content.combat.CombatConfigs
@@ -17,7 +18,8 @@ import gg.rsmod.plugins.content.mechanics.prayer.Prayers
  */
 object RangedCombatFormula : CombatFormula {
 
-    private val BLACK_MASKS = intArrayOf(Items.BLACK_MASK,
+    private val BLACK_MASKS = intArrayOf(
+        Items.BLACK_MASK,
             Items.BLACK_MASK_1, Items.BLACK_MASK_2, Items.BLACK_MASK_3, Items.BLACK_MASK_4,
             Items.BLACK_MASK_5, Items.BLACK_MASK_6, Items.BLACK_MASK_7, Items.BLACK_MASK_8,
             Items.BLACK_MASK_9, Items.BLACK_MASK_10)

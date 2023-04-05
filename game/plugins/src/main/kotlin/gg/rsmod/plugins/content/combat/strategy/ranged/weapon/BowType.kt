@@ -1,5 +1,6 @@
 package gg.rsmod.plugins.content.combat.strategy.ranged.weapon
 
+
 import gg.rsmod.plugins.api.cfg.Items
 import gg.rsmod.plugins.content.combat.strategy.ranged.ammo.Arrows.ADAMANT_ARROWS
 import gg.rsmod.plugins.content.combat.strategy.ranged.ammo.Arrows.AMETHYST_ARROWS
@@ -18,7 +19,6 @@ import gg.rsmod.plugins.content.combat.strategy.ranged.ammo.Arrows.OGRE_ARROWS
 import gg.rsmod.plugins.content.combat.strategy.ranged.ammo.Arrows.RUNE_ARROWS
 import gg.rsmod.plugins.content.combat.strategy.ranged.ammo.Arrows.STEEL_ARROWS
 import gg.rsmod.plugins.content.combat.strategy.ranged.ammo.Arrows.TRAINING_ARROWS
-
 /**
  * @author Tom <rspsmods@gmail.com>
  */

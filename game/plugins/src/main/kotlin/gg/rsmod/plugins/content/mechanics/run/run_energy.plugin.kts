@@ -1,7 +1,5 @@
 package gg.rsmod.plugins.content.mechanics.run
 
-import gg.rsmod.game.model.priv.Privilege
-
 on_login {
     player.timers[RunEnergy.RUN_DRAIN] = 1
 }

@@ -5,7 +5,7 @@ import gg.rsmod.game.model.entity.Pawn
 import gg.rsmod.game.model.entity.Player
 import gg.rsmod.plugins.api.EquipmentType
 import gg.rsmod.plugins.api.ext.getEquipment
-import gg.rsmod.plugins.content.inter.attack.AttackTab
+import gg.rsmod.plugins.content.interfaces.attack.AttackTab
 
 /**
  * @author Tom <rspsmods@gmail.com>

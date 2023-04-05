@@ -3,7 +3,7 @@ package gg.rsmod.plugins.content.skills.smithing.action
 import gg.rsmod.game.fs.def.ItemDef
 import gg.rsmod.game.model.queue.QueueTask
 import gg.rsmod.plugins.api.Skills
-import gg.rsmod.plugins.api.cfg.Items
+
 import gg.rsmod.plugins.api.ext.messageBox
 import gg.rsmod.plugins.api.ext.playSound
 import gg.rsmod.plugins.api.ext.player

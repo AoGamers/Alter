@@ -3,7 +3,6 @@ package gg.rsmod.plugins.content.mechanics.appearance
 import gg.rsmod.game.model.appearance.*
 import gg.rsmod.game.model.attr.APPEARANCE_SET_ATTR
 import gg.rsmod.game.sync.block.UpdateBlockType
-import gg.rsmod.plugins.content.mechanics.appearance.Appearance_interface_plugin.AppearanceOps.Companion.getOp
 import gg.rsmod.plugins.content.mechanics.appearance.Appearance_interface_plugin.AppearanceOps.Companion.isColourOp
 import gg.rsmod.plugins.content.mechanics.appearance.Appearance_interface_plugin.AppearanceOps.Companion.isLookOp
 import java.lang.IllegalArgumentException

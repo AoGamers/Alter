@@ -1,6 +1,6 @@
 package gg.rsmod.plugins.content.skills.fletching.data
 
-import gg.rsmod.plugins.api.cfg.Items
+
 
 enum class Feathered(val id: Int, val unfeathered: Int, val amount: Int = 10, val feathersNeeded: Int = 1, val level: Int, val fletchingXP: Double) {
     // Headless (Ogre) Arrows (The only real exception here)

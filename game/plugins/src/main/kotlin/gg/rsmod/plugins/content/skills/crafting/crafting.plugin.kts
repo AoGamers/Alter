@@ -1,6 +1,6 @@
 package gg.rsmod.plugins.content.skills.crafting
 
-import gg.rsmod.plugins.api.cfg.Items
+
 import gg.rsmod.plugins.content.skills.crafting.data.Gems
 import gg.rsmod.plugins.content.skills.crafting.data.Spin
 

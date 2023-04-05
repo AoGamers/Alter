@@ -2,6 +2,7 @@ package gg.rsmod.plugins.content.mechanics.water
 
 import gg.rsmod.game.model.entity.Player
 import gg.rsmod.plugins.api.cfg.Items
+
 import gg.rsmod.plugins.api.ext.*
 
 class WaterContainer(val unfilled: Int, val filled: Int) {
